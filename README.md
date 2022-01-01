@@ -9,7 +9,6 @@ https://codingly.io
 - [serverless-bundle plugin](https://www.npmjs.com/package/serverless-pseudo-parameters): Bundler based on the serverless-webpack plugin - requires zero configuration and fully compatible with ES6/ES7 features.
 
 ## Getting started
-
 ```
 sls create --name YOUR_PROJECT_NAME --template-url https://github.com/codingly-io/sls-base
 cd YOUR_PROJECT_NAME
@@ -20,13 +19,11 @@ You are ready to go!
 
 ## Prerequisites
 
-- AWS account
-- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-
+- AWS account + [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 ```
 $ aws configure
-AWS Access Key ID [None]: *YourAccessKey*
-AWS Secret Access Key [None]: *YourSecretKey*
+AWS Access Key ID [None]: YourAccessKey
+AWS Secret Access Key [None]: YourSecretKey
 Default region name [None]: ap-southeast-1
 Default output format [None]: yaml
 ```
